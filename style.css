@@ -1,0 +1,65 @@
+body {
+	background: linear-gradient(#245076, #3474AC);
+	background-color: silver;
+	width: 1500px;
+}
+header {
+	width: 900px;
+	background-color: blue;
+	margin: 0px;
+}
+header img {
+	max-width: 1000px;
+	display: inline-block;
+	background-color: white;
+}
+
+ul {
+    list-style-type: square;
+}
+#about {
+	background-color: #FFFFFF;
+}
+.divide {
+	height: 10px;
+	width: 600px;
+	display: inline-block;
+	background-color: #73A7D5;
+}
+#about .GS, #about .app {
+	width: 600px;
+	display: inline-block;
+	vertical-align: top;
+}
+.navBar a {
+	color: #FFFFFF;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 45px;
+
+}
+.navBar {
+	background-color: #477EAD;
+	width: 1800px;
+}
+.own {
+	display: inline-block;
+	text-align: center;
+}
+.nav {
+	text-align: center;
+	text-decoration-color: white;
+	font-size: 20px;
+	width: 500px;
+}
+.par {
+	width: 900px;
+	text-align: center;
+	display: inline-block;
+}
+.x {
+	background-color: red;
+	width: 300px;
+	align-items: center;
+	display: inline-block;
+}
