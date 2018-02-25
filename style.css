@@ -2,16 +2,16 @@ body {
 	background: linear-gradient(#245076, #3474AC);
 	background-color: silver;
 	width: 1500px;
+	margin: auto;
 }
 header {
-	width: 900px;
-	background-color: blue;
+	width: 1500px;
 	margin: 0px;
 }
-header img {
-	max-width: 1000px;
+header>img {
+	max-width: 580px;
 	display: inline-block;
-	background-color: white;
+	margin: 0px;
 }
 
 ul {
@@ -19,6 +19,9 @@ ul {
 }
 #about {
 	background-color: #FFFFFF;
+	width: 1500px;
+	text-align: center;
+	border: 3px solid black;
 }
 .divide {
 	height: 10px;
@@ -30,36 +33,125 @@ ul {
 	width: 600px;
 	display: inline-block;
 	vertical-align: top;
+	margin: auto 50px;
+}
+#about ul {
+
+	list-style-position: 
 }
 .navBar a {
 	color: #FFFFFF;
 	text-decoration: none;
 	display: inline-block;
-	font-size: 45px;
+	font-size: 35px;
+	margin-left: 35px;
 
 }
 .navBar {
 	background-color: #477EAD;
-	width: 1800px;
-}
-.own {
-	display: inline-block;
+	width: 1500px;
 	text-align: center;
+	border-radius: 25px;
+	margin: 15px auto 25px auto;
 }
+
 .nav {
 	text-align: center;
 	text-decoration-color: white;
-	font-size: 20px;
-	width: 500px;
+	font-size: 27px;
+	width: 300px;
+	display: inline-block;
+	list-style-position: inside;
 }
+
+.endP {
+	color: white;
+}
+
 .par {
 	width: 900px;
 	text-align: center;
 	display: inline-block;
 }
+
 .x {
-	background-color: red;
-	width: 300px;
+	
+	width: 280px;
 	align-items: center;
+	margin-left: 550px;
+	margin-bottom: 30px;
+	vertical-align: top;
+	color: white;
+	padding: 3px 25px 5px 25px;
+	text-align: center;
+}
+
+.search {
+	background-color: #444444;
+	width: 280px;
+	align-items: center;
+	vertical-align: top;
+	color: white;
+	padding: 10px;
+	border-radius: 15px;
+
+}
+
+.x a {
+	color: yellow;
+	text-decoration-color: none;
+}
+.b {
+	vertical-align: top;
+}
+.c {
+	vertical-align: top;
+	color: white;
+	padding: 8px;
+	background-color: #245076;
+	border: 3px solid #C0C0C0;
+	border-radius: 15px;
+}
+div {
 	display: inline-block;
+}
+.par {
+	width: 600px;
+	font-size: 17px;
+	color: white;
+
+}
+.explain {
+	display: inline-block;
+	width: 600px;
+	text-align: center;
+	margin: 5px 5px 10px 300px;
+	vertical-align: top;
+}
+.explain .words {
+	color: yellow;
+	font-style: italic;
+}
+.nav li a {
+	color: white;
+}
+footer {
+	width: 1500px;
+	margin: auto;
+	color: #79ACD9;
+	text-align: center;
+}
+footer>a {
+	
+}
+.highLight {
+	color: #8CB7DC;
+}
+.links, footer a {
+	font-size: 27px;
+	padding-left: 35px;
+	text-decoration: none;
+	text-align: center;
+	color: #79ACD9;
+	margin: auto;
 }
